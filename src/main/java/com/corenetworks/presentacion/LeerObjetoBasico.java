@@ -9,7 +9,7 @@ public class LeerObjetoBasico {
         Pedido p1 = null;
         try(FileInputStream f1 = new FileInputStream("pedidos.dat");
             ObjectInputStream o1 = new ObjectInputStream(f1);
-//            ObjectInputStream o2 = new ObjectInputStream(new FileInputStream("pedidos2.dat"))
+            ObjectInputStream o2 = new ObjectInputStream(new FileInputStream("pedidos2.dat"))
 
         ) {
             while (true){
